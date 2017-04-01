@@ -1,0 +1,2 @@
+C:\Users\john.thomas\Dropbox\Career\Learn\Codes\Algorithms\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe.config
+C:\Users\john.thomas\Desktop\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe.config
