@@ -15,8 +15,6 @@ namespace ReverseALinkedList
     }
 
     
-
-
     class LinkedList
     {
         Node head;
