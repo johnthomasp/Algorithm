@@ -1,0 +1,6 @@
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe.config
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\DoublyLinkedList\bin\Debug\DoublyLinkedList.pdb
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\DoublyLinkedList\obj\Debug\DoublyLinkedList.exe
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\DoublyLinkedList\obj\Debug\DoublyLinkedList.csprojResolveAssemblyReference.cache

@@ -9,4 +9,3 @@ D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\bin\Debug\PeakEl
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\bin\Debug\PeakElement.pdb
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\Debug\PeakElement.exe
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\Debug\PeakElement.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\Debug\PeakElement.csprojResolveAssemblyReference.cache

@@ -6,4 +6,3 @@ D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\bin\Debug
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.pdb
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\obj\Debug\ReverseALinkedList.exe
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\obj\Debug\ReverseALinkedList.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\obj\Debug\ReverseALinkedList.csprojResolveAssemblyReference.cache

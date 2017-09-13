@@ -3,4 +3,3 @@ D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Factorial\bin\Debug\Factoria
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Factorial\bin\Debug\Factorial.pdb
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Factorial\obj\Debug\Factorial.exe
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Factorial\obj\Debug\Factorial.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Factorial\obj\Debug\Factorial.csprojResolveAssemblyReference.cache

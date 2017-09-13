@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseALinkedList", "ReverseALinkedList\ReverseALinkedList.csproj", "{A7C13431-50D1-4A2A-92D3-02DA251EBA0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakElement", "PeakElement\PeakElement.csproj", "{4BBB331B-5B86-45B8-AD56-9E62078DC3F1}"
@@ -14,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestCommonDivisor", "GreatestCommonDivisor\GreatestCommonDivisor.csproj", "{981DFB3C-B5CB-41A7-BDFC-7F0492A038A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringPermutation", "StringPermutation\StringPermutation.csproj", "{7FF75529-3C1F-40D1-8F40-7ACCF6794241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.csproj", "{3B0E1ADB-CA48-4A19-8C68-8C4E87B08340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList2", "SinglyLinkedList2\SinglyLinkedList2.csproj", "{0E0E41D7-3E40-48ED-A60A-570ADA2F2294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.csproj", "{9BDAAC6F-3FA0-4A9D-806A-C4A832CC69BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +57,18 @@ Global
 		{7FF75529-3C1F-40D1-8F40-7ACCF6794241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF75529-3C1F-40D1-8F40-7ACCF6794241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF75529-3C1F-40D1-8F40-7ACCF6794241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0E1ADB-CA48-4A19-8C68-8C4E87B08340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0E1ADB-CA48-4A19-8C68-8C4E87B08340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0E1ADB-CA48-4A19-8C68-8C4E87B08340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0E1ADB-CA48-4A19-8C68-8C4E87B08340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0E41D7-3E40-48ED-A60A-570ADA2F2294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0E41D7-3E40-48ED-A60A-570ADA2F2294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0E41D7-3E40-48ED-A60A-570ADA2F2294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0E41D7-3E40-48ED-A60A-570ADA2F2294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDAAC6F-3FA0-4A9D-806A-C4A832CC69BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDAAC6F-3FA0-4A9D-806A-C4A832CC69BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDAAC6F-3FA0-4A9D-806A-C4A832CC69BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDAAC6F-3FA0-4A9D-806A-C4A832CC69BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
