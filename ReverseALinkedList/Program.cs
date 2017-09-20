@@ -11,44 +11,56 @@ namespace ReverseALinkedList
     {
         static void Main(string[] args)
         {
+            LinkedList<int> ll1 = new LinkedList<int>();
+            ll1.AddLast(1);
+            ll1.AddLast(2);
+            ll1.AddLast(3);
+            ReverseLinkList rl = new ReverseLinkList();
+            //LinkedList<int> ll2 = rl.ReverseList(ll1);
+            rl.printList(rl.ReverseList(ll1));
+            Console.ReadLine();
         }
     }
 
-    
-    class LinkedList
+    public class ReverseLinkList
     {
-        Node head;
-
-       public class Node
-       {
-            public int data;
-            public Node next;
-
-            Node(int d)
+        public LinkedList<int> ReverseList(LinkedList<int> list)
+        {
+            LinkedListNode<int> current = list.First;
+            while (current.Next != null)
             {
-                data = d;
-                next = null;
+                //next = current.Next;
+                //current.Next = prev;
+                //prev = current;
+                //current = next;
+
+                var next = current.Next;
+                list.Remove(next);
+                list.AddFirst(next.Value);
             }
+
+            return list;
+            //list.First = prev;
+
+            //return node;
         }
 
-        public Node ReverseList(Node node)
+
+        public void printList(LinkedList<int> ln)
         {
-            Node next = null;
-            Node current = node;
-            Node prev = null;
+            Console.Write("Head-->");
 
-
-            while (current != null)
+            foreach (int value in ln)
             {
-                next = current.next;
-                current.next = prev;
-                prev = current;
-                current = next;
+                Console.Write(value);
+                Console.Write("-->");
             }
 
-            head = prev;
 
-            return node;
+            Console.Write("NULL");
         }
     }
+
+
 }
+

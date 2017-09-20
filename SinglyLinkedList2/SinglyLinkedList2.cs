@@ -36,6 +36,7 @@ namespace SinglyLinkedList2
             get { return this.data; }
             set { this.data = value; }
         }
+
         public Node Next
         {
             get { return this.next; }
@@ -43,30 +44,10 @@ namespace SinglyLinkedList2
         }
 
 
-        //public void setData(object o)
-        //{
-        //    data = o;
-        //}
-
-        //public object getData()
-        //{
-        //    return data;
-        //}
-
-
-        //public void setNextNode(Node n)
-        //{
-        //    next = n;
-        //}
-
-        //public Node getNextNode()
-        //{
-        //    return next;
-        //}
 
     }
 
-    public class SinglyLinkList
+    public class SinglyLinkedList
     {
         //Add(object)
         //Add(position, object)
@@ -80,39 +61,36 @@ namespace SinglyLinkedList2
         //getLength
 
         private Node headNode;
-
         public bool add(int position, object newEntry)
         {
             Node tmp = headNode;
             if (position >= 1)
             {
                 Node newNode = new Node(newEntry);
-                if (isEmpty())
+                if (isEmpty() || position == 1)
                 {
-                    newNode.setNextNode(tmp);
+                    newNode.Next = tmp;
                     headNode = newNode;
                     return true;
                 }
                 else
                 {
-                    for (int i = 0; i < position-1 && tmp !=null ; i++)
+                    for (int i = 1; i < position - 1 && tmp != null; i++)
                     {
-                        tmp = tmp.getNextNode();
+                        tmp = tmp.Next;
                     }
                     if (tmp == null)
                     {
                         return false;
                     }
-
-                    newNode.setNextNode(tmp.getNextNode());
-                    tmp.setNextNode(newNode);
+                    newNode.Next = tmp.Next;
+                    tmp.Next = newNode;
                     return true;
                 }
             }
             else
             {
                 return false;
-
             }
         }
         public bool add(object newEntry)
@@ -137,7 +115,7 @@ namespace SinglyLinkedList2
             }
             else
             {
-                for (int i = 0; i < (position - 1) && currentNode != null; i++)
+                for (int i = 1; i < position && currentNode != null; i++)
                 {
                     currentNode = currentNode.Next;
                 }
@@ -166,12 +144,55 @@ namespace SinglyLinkedList2
             return (headNode == null);
         }
 
+        public void printAllNodes()
+        {
+            Node curr = headNode;
+            Console.Write("Head-->");
+            while (curr != null)
+            {
+                Console.Write(curr.Data);
+                curr = curr.Next;
+                Console.Write("-->");
+            }
+            Console.Write("NULL");
+        }
     }
 
-    class Program
+    class SinglyLinkedList2
     {
         static void Main(string[] args)
         {
+
+            SinglyLinkedList sl = new SinglyLinkedList();
+
+            Console.WriteLine();
+            Console.WriteLine("**Insert***");
+
+            sl.add(6);
+            sl.add(5);
+            sl.add(1);
+            sl.printAllNodes();
+
+            Console.WriteLine();
+            Console.WriteLine("**Insert at***");
+
+            sl.add(2, 3);
+            sl.add(2, 2); ;
+            sl.add(4, 4);
+            sl.add(1, 100);
+            sl.printAllNodes();
+
+            Console.WriteLine();
+            Console.WriteLine("**Remove postion # 1***");
+            sl.Remove(1);
+            sl.printAllNodes();
+
+            Console.WriteLine();
+            Console.WriteLine("**Remove postion # 4***");
+            sl.Remove(3);
+            sl.printAllNodes();
+
+            Console.ReadLine();
         }
     }
 }
