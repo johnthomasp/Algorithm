@@ -1,7 +1,7 @@
 ﻿using System;
 
-//Time Complexity - Worst Case O(n2) Best Case O(n log n) Avergae Case O(n log n)
-//Space Complexity - Worst Case O(n) Avergae Case O(log n)
+// Time Complexity - Worst Case O(n2) Best Case O(n log n) Avergae Case O(n log n)
+// Space Complexity - Worst Case O(n) Avergae Case O(log n)
 
 namespace QuickSort
 {
