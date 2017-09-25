@@ -1,0 +1,5 @@
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Queue\bin\Debug\Queue.exe.config
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Queue\bin\Debug\Queue.exe
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Queue\bin\Debug\Queue.pdb
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Queue\obj\Debug\Queue.exe
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Queue\obj\Debug\Queue.pdb

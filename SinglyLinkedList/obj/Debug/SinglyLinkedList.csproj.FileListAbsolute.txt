@@ -3,4 +3,3 @@ D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\bin\Debug\S
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\bin\Debug\SinglyLinkedList.pdb
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\obj\Debug\SinglyLinkedList.exe
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\obj\Debug\SinglyLinkedList.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\obj\Debug\SinglyLinkedList.csprojResolveAssemblyReference.cache

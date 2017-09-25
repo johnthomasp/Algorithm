@@ -1,0 +1,5 @@
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Stack\bin\Debug\Stack.exe.config
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Stack\bin\Debug\Stack.exe
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Stack\bin\Debug\Stack.pdb
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Stack\obj\Debug\Stack.exe
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Stack\obj\Debug\Stack.pdb

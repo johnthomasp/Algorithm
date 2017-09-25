@@ -7,5 +7,6 @@ C:\Users\john.thomas\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\De
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\bin\Debug\PeakElement.exe.config
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\bin\Debug\PeakElement.exe
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\bin\Debug\PeakElement.pdb
+D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\Debug\PeakElement.csprojResolveAssemblyReference.cache
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\Debug\PeakElement.exe
 D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\PeakElement\obj\Debug\PeakElement.pdb
