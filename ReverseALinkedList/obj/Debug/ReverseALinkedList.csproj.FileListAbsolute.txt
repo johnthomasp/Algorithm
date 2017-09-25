@@ -1,9 +1,0 @@
-C:\Users\john.thomas\Dropbox\Career\Learn\Codes\Algorithms\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe.config
-C:\Users\john.thomas\Desktop\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe.config
-C:\Users\john.thomas\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\bin\Debug\ReverseALinkedList.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\obj\Debug\ReverseALinkedList.csprojResolveAssemblyReference.cache
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\obj\Debug\ReverseALinkedList.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\ReverseALinkedList\obj\Debug\ReverseALinkedList.pdb

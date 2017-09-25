@@ -1,5 +1,0 @@
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\StringPermutation\bin\Debug\StringPermutation.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\StringPermutation\bin\Debug\StringPermutation.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\StringPermutation\bin\Debug\StringPermutation.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\StringPermutation\obj\Debug\StringPermutation.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\StringPermutation\obj\Debug\StringPermutation.pdb

@@ -1,5 +1,0 @@
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Sort-Bubble\bin\Debug\Sort-Bubble.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Sort-Bubble\bin\Debug\Sort-Bubble.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Sort-Bubble\bin\Debug\Sort-Bubble.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Sort-Bubble\obj\Debug\Sort-Bubble.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\Sort-Bubble\obj\Debug\Sort-Bubble.pdb

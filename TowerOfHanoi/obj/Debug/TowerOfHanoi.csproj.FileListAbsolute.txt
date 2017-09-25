@@ -1,6 +1,0 @@
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TowerOfHanoi\bin\Debug\TowerOfHanoi.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TowerOfHanoi\obj\Debug\TowerOfHanoi.csprojResolveAssemblyReference.cache
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TowerOfHanoi\obj\Debug\TowerOfHanoi.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TowerOfHanoi\obj\Debug\TowerOfHanoi.pdb

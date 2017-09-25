@@ -1,6 +1,0 @@
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TempQuickSort\bin\Debug\TempQuickSort.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TempQuickSort\bin\Debug\TempQuickSort.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TempQuickSort\bin\Debug\TempQuickSort.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TempQuickSort\obj\Debug\TempQuickSort.csprojResolveAssemblyReference.cache
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TempQuickSort\obj\Debug\TempQuickSort.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\TempQuickSort\obj\Debug\TempQuickSort.pdb

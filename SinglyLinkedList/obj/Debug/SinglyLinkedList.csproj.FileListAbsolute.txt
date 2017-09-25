@@ -1,5 +1,0 @@
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\bin\Debug\SinglyLinkedList.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\bin\Debug\SinglyLinkedList.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\bin\Debug\SinglyLinkedList.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\obj\Debug\SinglyLinkedList.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\SinglyLinkedList\obj\Debug\SinglyLinkedList.pdb

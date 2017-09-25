@@ -1,5 +1,0 @@
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe.config
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.pdb
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
-D:\Dropbox\Dropbox\Career\Learn\CodeBase\Algorithms\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb
