@@ -16,6 +16,8 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+*\Debug\*
+*\Release\*
 
 # NuGet Packages
 *.nupkg
