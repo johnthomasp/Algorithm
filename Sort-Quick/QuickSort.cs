@@ -43,9 +43,16 @@ namespace QuickSort
 
         private static void printList(int[] arr)
         {
-            for (int i = 0; i < arr.Length; i++)
+            if (arr.Length > 0)
             {
-                Console.WriteLine(arr[i]);
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    Console.WriteLine(arr[i]);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Empty Array");
             }
         }
 
