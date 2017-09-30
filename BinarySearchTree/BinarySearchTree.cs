@@ -84,8 +84,32 @@ namespace BinarySearchTree
                 }
                 return root;
             }
-        }
 
+            public bool Search(int text)
+            {
+                return Search(root, text);
+            }
+
+            public bool Search(Node node, int searchText)
+            {
+                bool found = false;
+                while ((node != null) && (!found))
+                {
+                    if (node.Data > searchText)
+                        node = node.LeftChild;
+                    else if (node.Data < searchText)
+                        node = node.RightChild;
+                    else
+                    {
+                        found = true;
+                        break;
+                    }
+                    found = Search(node, searchText);
+                }
+                return found;
+            }
+
+        }
 
         static void Main(string[] args)
         {
@@ -97,6 +121,12 @@ namespace BinarySearchTree
             tree.Add(55);
             tree.Add(-1);
             tree.Add(-2);
+
+          
+
+            Console.WriteLine(tree.Search(2));
+            Console.WriteLine(tree.Search(100));
+            Console.ReadLine();
         }
     }
 }
