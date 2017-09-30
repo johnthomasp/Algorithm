@@ -109,6 +109,24 @@ namespace BinarySearchTree
                 return found;
             }
 
+            void printUtil(Node root)
+            {
+                if (root == null)
+                    return;
+
+                // Process right child first
+                printUtil(root.RightChild);
+                Console.WriteLine(root.Data);
+
+                // Process left child
+                printUtil(root.LeftChild);
+            }
+
+            public void Print()
+            {
+                printUtil(root);
+            }
+
         }
 
         static void Main(string[] args)
@@ -122,8 +140,7 @@ namespace BinarySearchTree
             tree.Add(-1);
             tree.Add(-2);
 
-          
-
+            tree.Print();
             Console.WriteLine(tree.Search(2));
             Console.WriteLine(tree.Search(100));
             Console.ReadLine();
