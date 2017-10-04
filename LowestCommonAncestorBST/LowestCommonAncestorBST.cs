@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LowestCommonAncestor
+namespace LowestCommonAncestorBST
 {
     public class Node
     {
-
-        private int data;
-        private Node leftChild;
-        private Node rightChild;
+        int data;
+        Node leftChild;
+        Node rightChild;
 
         public Node()
         {
@@ -20,10 +19,10 @@ namespace LowestCommonAncestor
             rightChild = null;
         }
 
-        public Node(int value, Node lc, Node rc)
+        public Node(int d, Node lc, Node rc)
         {
+            data = d;
             leftChild = lc;
-            data = value;
             rightChild = rc;
         }
 
@@ -38,7 +37,7 @@ namespace LowestCommonAncestor
             get { return this.leftChild; }
             set { this.leftChild = value; }
         }
-
+        
         public Node RightChild
         {
             get { return this.rightChild; }
@@ -46,45 +45,50 @@ namespace LowestCommonAncestor
         }
     }
 
-    public class LowestCommonAncestor
+    public class LowestCommonAncestorBST
     {
-        int count = 10;
-        public Node buildTree()
-        {
-            //Tree Structure
-            //          3
-            //      6       8
-            //    2   11      13
-            //       9  5    7 
 
-            Node rl3 = new Node(7, null, null);
-            Node rr2 = new Node(13, rl3, null);
-            Node r3 = new Node(5, null, null);
-            Node r1 = new Node(8, null, rr2);
-            Node l3 = new Node(9, null, null);
-            Node r2 = new Node(11, l3, r3);
-            Node l2 = new Node(2, null, null);
-            Node l1 = new Node(6, l2, r2);
-            Node root = new Node(3, l1, r1);
+        int count = 10;
+        public Node BuildTree()
+        {
+
+            //Tree Structure
+            //             10
+            //      -10           30
+            //          8      25    60
+            //        6   9      28    78 
+
+
+            Node rrr3 = new Node(78, null, null);
+            Node rr3 = new Node(28, null, null);
+            Node rr2 = new Node(60, null, rrr3);
+            Node rl2 = new Node(25, null, rr3);
+            Node r1 = new Node(30, rl2, rr2);
+            Node r3 = new Node(9, null, null);
+            Node l3 = new Node(6, null, null);
+            Node r2 = new Node(8, l3, r3);
+            Node l1 = new Node(-10, null, r2);
+            Node root = new Node(10, l1, r1);
             return root;
         }
 
         public Node lowestCommonAncestor(Node root, int a, int b)
         {
-            if (root == null)
-                return null;
-            if (root.Data == a || root.Data == b)
+            if (root.Data > Math.Max(a, b))
+            {
+                return lowestCommonAncestor(root.LeftChild, a, b);
+            }
+            else if (root.Data < Math.Min(a, b))
+            {
+                return lowestCommonAncestor(root.RightChild, a, b);
+            }
+            else
+            {
                 return root;
-
-            Node left = lowestCommonAncestor(root.LeftChild, a, b);
-            Node right = lowestCommonAncestor(root.RightChild, a, b);
-
-            if ((left == null) && (right == null)) return null;
-            if ((left != null) && (right != null)) return root;
-            return (left != null) ? left : right;
+            }
         }
 
-        void printUtil(Node root, int space)
+        public void printUtil(Node root, int space)
         {
             if (root == null)
                 return;
@@ -114,25 +118,14 @@ namespace LowestCommonAncestor
     {
         static void Main(string[] args)
         {
-            LowestCommonAncestor LCA = new LowestCommonAncestor();
-            Node root = LCA.buildTree();
-            LCA.Print(root);
+            LowestCommonAncestorBST LCABST = new LowestCommonAncestorBST();
+            Node root = LCABST.BuildTree();
+            LCABST.Print(root);
 
-            //Tree Structure
-            //          3
-            //      6       8
-            //    2   11      13
-            //       9  5    7 
+            int a = 28;
+            int b = 78;
 
-            int a = 2;
-            int b = 5;
-            //int a = 8;
-            //int b = 11;
-            //int a = 8;
-            //int b = 7;
-            //int a = 4;
-            //int b = 12;
-            Node result = LCA.lowestCommonAncestor(root, a, b);
+            Node result = LCABST.lowestCommonAncestor(root, a, b);
             if (result != null)
             {
                 Console.WriteLine("\n\nThe lowest common ancestor for {0} and {1} is {2}.", a, b, result.Data);
@@ -141,6 +134,12 @@ namespace LowestCommonAncestor
             {
                 Console.WriteLine("\n\nThe lowest common ancestor for {0} and {1} in the tree doesn't exists", a, b);
             }
+            Console.ReadLine();
+
+
+
+
+
             Console.ReadLine();
         }
     }
