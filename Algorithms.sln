@@ -29,9 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort-Merge", "Sort-Merge\So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort-Heap", "Sort-Heap\Sort-Heap.csproj", "{AFCEE7AD-EE12-40E2-92C7-587C581EF003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorBS", "LowestCommonAncestor\LowestCommonAncestorBS.csproj", "{B3435605-CA58-4544-BB36-D5AF033CCDAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSLowestCommonAncestor", "LowestCommonAncestor\BSLowestCommonAncestor.csproj", "{B3435605-CA58-4544-BB36-D5AF033CCDAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorBST", "LowestCommonAncestorBST\LowestCommonAncestorBST.csproj", "{9005A4C8-D4EC-4FD1-858D-4850553EB1DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTLowestCommonAncestor", "LowestCommonAncestorBST\BSTLowestCommonAncestor.csproj", "{9005A4C8-D4EC-4FD1-858D-4850553EB1DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTFromSortedArray", "BSTFromSortedArray\BSTFromSortedArray.csproj", "{9FD07DDD-6C36-4D50-9DE5-9977C5F38E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{9005A4C8-D4EC-4FD1-858D-4850553EB1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9005A4C8-D4EC-4FD1-858D-4850553EB1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9005A4C8-D4EC-4FD1-858D-4850553EB1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD07DDD-6C36-4D50-9DE5-9977C5F38E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD07DDD-6C36-4D50-9DE5-9977C5F38E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD07DDD-6C36-4D50-9DE5-9977C5F38E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD07DDD-6C36-4D50-9DE5-9977C5F38E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
