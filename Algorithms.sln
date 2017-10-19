@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTFromSortedArray", "BSTFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBSaBST", "IsBSaBST\CheckBSaBST.csproj", "{FEDDA861-C121-45ED-A639-5B68D714C5D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTSizeOfTree", "BSTSizeOfTree\BSTSizeOfTree.csproj", "{6AC6AC79-ACFE-43FE-AD73-5EE508693C9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{FEDDA861-C121-45ED-A639-5B68D714C5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDDA861-C121-45ED-A639-5B68D714C5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDDA861-C121-45ED-A639-5B68D714C5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC6AC79-ACFE-43FE-AD73-5EE508693C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC6AC79-ACFE-43FE-AD73-5EE508693C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC6AC79-ACFE-43FE-AD73-5EE508693C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC6AC79-ACFE-43FE-AD73-5EE508693C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
