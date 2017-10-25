@@ -19,22 +19,21 @@ namespace OnesInBinaryNumber
     */
     class Program
     {
-        public int Ones(int x)
+        public static int Ones(int x)
         {
             int sum = 0;
 
             while (x > 0)
             {
-
+                sum += x & 1;
+                x >>= 1;
             }
-
-
             return sum;
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the nth element to be determined:");
+            Console.WriteLine("Please enter a number:");
             int n = int.Parse(Console.ReadLine());
             int result = Ones(n);
             Console.WriteLine("\nThe no. of ones in {0} is {1}", n, result);

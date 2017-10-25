@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthFromLast", "NthFromLast\NthFromLast.csproj", "{C66B2DCC-DB37-4465-A0FE-D19370F36E5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnesInBinaryNumber", "OnesInBinaryNumber\OnesInBinaryNumber.csproj", "{3B0A7D60-B1A3-496C-AB37-788F04842A4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{C66B2DCC-DB37-4465-A0FE-D19370F36E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C66B2DCC-DB37-4465-A0FE-D19370F36E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C66B2DCC-DB37-4465-A0FE-D19370F36E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0A7D60-B1A3-496C-AB37-788F04842A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0A7D60-B1A3-496C-AB37-788F04842A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0A7D60-B1A3-496C-AB37-788F04842A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0A7D60-B1A3-496C-AB37-788F04842A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
