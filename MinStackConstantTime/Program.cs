@@ -3,7 +3,7 @@
 namespace MinStackConstantTime
 {
     /*
-     * Design a stack with a push, pop and min function which returns the min value in the stack.
+     * Design a stack with a push, pop, min function which returns the min value in the stack.
      * All of which runs in constant time O(1). 
      */
 
@@ -91,7 +91,6 @@ namespace MinStackConstantTime
             mStack.pop();
             mStack.pop();
             Console.WriteLine(mStack.min());
-
             Console.ReadLine();
         }
     }

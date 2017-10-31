@@ -19,13 +19,6 @@ namespace MaxStackConstantTime
         public Node next;
         public int max;
 
-        public Node()
-        {
-    //        value = 0;
-            next = null;
-      //      max = 0;
-        }
-
         public Node(int x)
         {
             value = x;
@@ -34,37 +27,75 @@ namespace MaxStackConstantTime
         }
     }
 
-    public class MaxStackConstantTime
+    public class MaxStack
     {
-
-        Node stack = new Node();
-        Node maxNode = new Node();
-
+        Node topNode = null;
+        
         public void Push(int val)
         {
-            Node n = new Node();
-            n.value = val;
-
-            if (stack == null)
+            if (topNode == null)
             {
-                stack = n;
+                topNode = new Node(val);
             }
-            else 
+            else
             {
-                n.next = stack;
-                stack = n;
+                Node temp = new Node(val);
+                temp.next = topNode;
+                temp.max = Math.Max(topNode.max, val);
+                topNode = temp;
             }
-
-            if ((maxNode == null) || (n.value > maxNode.max))
-            {
-                n.max = maxNode.value;
-                maxNode = n;
-            }
-
         }
-        
+
+        public void pop()
+        {
+            if (topNode == null)
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+
+            topNode = topNode.next;
+        }
+
+        public int top()
+        {
+            if (topNode == null)
+            {
+                Console.WriteLine("Stack is Empty");
+                return Int16.MinValue;
+            }
+
+            return topNode.value;
+        }
+
+
+        public int max()
+        {
+            if (topNode == null)
+            {
+                Console.WriteLine("Stack is Empty");
+                return Int16.MinValue;
+            }
+
+            return topNode.max;
+        }
+
         static void Main(string[] args)
         {
+            MaxStack ms = new MaxStack();
+            ms.Push(10);
+            ms.Push(8);
+            Console.WriteLine(ms.max());
+            ms.Push(6);
+            ms.Push(11);
+            Console.WriteLine(ms.max());
+            ms.Push(13);
+            ms.Push(14);
+            Console.WriteLine(ms.max());
+            ms.pop();
+            ms.pop();
+            Console.WriteLine(ms.max());
+            Console.ReadLine();
         }
     }
 }
