@@ -34,9 +34,6 @@ namespace MaxStackConstantTime
         }
     }
 
-
-
-
     public class MaxStackConstantTime
     {
 
@@ -65,8 +62,6 @@ namespace MaxStackConstantTime
             }
 
         }
-
-
         
         static void Main(string[] args)
         {

@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinChangeRecursion", "Coin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxStackConstantTime", "MaxStackConstantTime\MaxStackConstantTime.csproj", "{6E982FBD-9FBA-4C46-869C-1E0011EBA3BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinStackConstantTime", "MinStackConstantTime\MinStackConstantTime.csproj", "{1499AEB0-7D2F-4633-90B5-DE36673B0E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{6E982FBD-9FBA-4C46-869C-1E0011EBA3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E982FBD-9FBA-4C46-869C-1E0011EBA3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E982FBD-9FBA-4C46-869C-1E0011EBA3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1499AEB0-7D2F-4633-90B5-DE36673B0E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1499AEB0-7D2F-4633-90B5-DE36673B0E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1499AEB0-7D2F-4633-90B5-DE36673B0E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1499AEB0-7D2F-4633-90B5-DE36673B0E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
