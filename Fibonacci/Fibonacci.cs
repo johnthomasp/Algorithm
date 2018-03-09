@@ -18,7 +18,7 @@ namespace Fibonacci
                 
         static void Main(string[] args)
         {
-            int n = 5;
+            int n = 10;
             int result = calculateFibonancci(n);
             Console.WriteLine("The fibonacci of {0} is {1}", n, result);
             //Console.WriteLine("The fibonacci of first {0} numbers", n);
