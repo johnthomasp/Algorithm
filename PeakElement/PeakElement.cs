@@ -29,7 +29,7 @@ We reduce the search space in half at every step. Thus, the depth of recursion t
 
             int mid = (start + end) / 2;
             
-            //compare the middle element with its neighbours
+            //compare the middleelement with its neighbours
             if ((mid == 0 || inputArray[mid - 1] <= inputArray[mid]) &&
                 (mid == elemCount - 1 || inputArray[mid + 1] <= inputArray[mid]))
                 return mid;
