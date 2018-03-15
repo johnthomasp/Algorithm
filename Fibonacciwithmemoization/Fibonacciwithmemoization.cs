@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,9 +31,17 @@ namespace Fibonacciwithmemoization
 
         static void Main(string[] args)
         {
-            int n = 10;
+            int n = 30;
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
             int result = Fibonacciwithmemoization.CalculateFibonacci(n);
             Console.WriteLine("The Fibonacci number of {0} is {1}", n, result);
+
+            stopwatch.Stop();
+            Console.WriteLine("Time elapsed: {0}", stopwatch.Elapsed);
+
             Console.ReadLine();
         }
     }
