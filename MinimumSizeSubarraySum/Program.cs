@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 /// <summary>
 /// Given an array of n positive integers and a positive integer s, 
 /// find the minimal length of a contiguous subarray of which the sum ≥ s. 
@@ -9,34 +14,10 @@
 /// </summary>
 namespace MinimumSizeSubarraySum
 {
-    public class Program
+    class Program
     {
-        public static int calculateSubArrarySum(int[] arr, int value)
-        {
-            int start = 0;
-            int min = arr.Length + 1;
-            int sum = 0;
-
-            for (int end = 0; end < arr.Length; end++)
-            {
-                sum += arr[end];
-                while (sum >= value)
-                {
-                    min = Math.Min(min, end - start + 1);
-                    sum -= arr[start];
-                    start++;
-                }
-            }
-            return (min == arr.Length + 1) ? 0 : min;
-        }
-
         static void Main(string[] args)
         {
-            int value = 7;
-            int[] arr = { 2, 3, 1, 2, 4, 3 };
-            int result = calculateSubArrarySum(arr, value);
-            Console.WriteLine("The minimum size of subarray to get {0} is {1}", value, result);
-            Console.ReadLine();
         }
     }
 }
