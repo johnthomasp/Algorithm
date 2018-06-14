@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAddition", "ArrayAddit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSizeSubarraySum", "MinimumSizeSubarraySum\MinimumSizeSubarraySum.csproj", "{F17D64E5-62C3-437D-8633-4250570CD570}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToeplitzMatrix", "ToeplitzMatrix\ToeplitzMatrix.csproj", "{43D376DE-2F4F-46F8-ACA8-26C5CA7A3493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectSquare", "PerfectSquare\PerfectSquare.csproj", "{81AE77E5-926F-424C-81D1-9FBB7A3AC05E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{F17D64E5-62C3-437D-8633-4250570CD570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F17D64E5-62C3-437D-8633-4250570CD570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F17D64E5-62C3-437D-8633-4250570CD570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D376DE-2F4F-46F8-ACA8-26C5CA7A3493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D376DE-2F4F-46F8-ACA8-26C5CA7A3493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D376DE-2F4F-46F8-ACA8-26C5CA7A3493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D376DE-2F4F-46F8-ACA8-26C5CA7A3493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AE77E5-926F-424C-81D1-9FBB7A3AC05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AE77E5-926F-424C-81D1-9FBB7A3AC05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AE77E5-926F-424C-81D1-9FBB7A3AC05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AE77E5-926F-424C-81D1-9FBB7A3AC05E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
